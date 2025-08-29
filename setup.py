@@ -21,6 +21,9 @@ setup(
     entry_points={
         'console_scripts': [
             'cones_detector = lidar_only.cones_detector:main',
+            'cone_new = lidar_only.cone_new:main',
+            'actual_detector = lidar_only.actual_detector:main',
+            'intensity_checker = lidar_only.intensity_checker:main',
         ],
     },
 )
